@@ -1,0 +1,26 @@
+@import "./utils/vars";
+
+@import "./base/base";
+@import "./base/reset";
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/features";
+@import "./layouts/sevices";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+@import "./layouts/projects";
+
+@import "./components/logo";
+@import "./components/navigation";
+@import "./components/header-contacts";
+@import "./components/btn";
+@import "./components/socials";
+@import "./components/member-card";
+@import "./components/member-socials";
+@import "./components/address-block";
+@import "./components/footer-socials";
+@import "./components/footer-form";
+@import "./components/modal-form";
+@import "./components/project-cards";

@@ -1,0 +1,28 @@
+.footer__socials-block {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 12px;
+  margin-right: 93px;
+  min-width: 206px;
+}
+
+.footer__socials {
+  justify-content: flex-start;
+  margin-top: 20px;
+}
+
+.footer__socials-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__socials-link:hover,
+.footer__socials-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer__socials-icon {
+  fill: #ffffff;
+}
