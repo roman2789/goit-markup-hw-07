@@ -565,41 +565,41 @@
 
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-close" type="button" data-modal-close>
-          <svg class="close" width="11" height="11">
+        <button class="modal__close-btn" type="button" data-modal-close>
+          <svg class="modal__close-icon" width="11" height="11">
             <use href="./img/sprite.svg#close"></use>
           </svg>
         </button>
-        <h2 class="modal-title">Залишіть свої дані, ми вам передзвонимо</h2>
-        <form class="modal-form" name="subscriptio-form" autocomplete="on" novalidate>
-          <div class="form-group">
-            <label class="form-label" for="name">Ім'я</label>
-            <input class="form-input" type="text" name="name" id="name" />
-            <svg class="icon" width="12" height="12">
+        <h2 class="modal__title">Залишіть свої дані, ми вам передзвонимо</h2>
+        <form class="form" name="subscriptio-form" autocomplete="on" novalidate>
+          <div class="form__box">
+            <label class="form__label" for="name">Ім'я</label>
+            <input class="form__input" type="text" name="name" id="name" />
+            <svg class="form__icon" width="12" height="12">
               <use href="./img/sprite.svg#modal-name"></use>
             </svg>
           </div>
 
-          <div class="form-group" role="group">
-            <label class="form-label" for="tel">Телефон</label>
-            <input class="form-input" type="tel" name="tel" id="tel" />
-            <svg class="icon" width="13" height="13">
+          <div class="form__box" role="group">
+            <label class="form__label" for="tel">Телефон</label>
+            <input class="form__input" type="tel" name="tel" id="tel" />
+            <svg class="form__icon" width="13" height="13">
               <use href="./img/sprite.svg#modal-phone"></use>
             </svg>
           </div>
 
-          <div class="form-group" role="group">
-            <label class="form-label" for="mail">Пошта</label>
-            <input class="form-input" type="email" name="mail" id="mail" />
-            <svg class="icon" width="15" height="12">
+          <div class="form__box" role="group">
+            <label class="form__label" for="mail">Пошта</label>
+            <input class="form__input" type="email" name="mail" id="mail" />
+            <svg class="form__icon" width="15" height="12">
               <use href="./img/sprite.svg#modal-mail"></use>
             </svg>
           </div>
 
-          <div class="form-group" role="group">
-            <label class="form-label" for="comment">Коментарій</label>
+          <div class="form__box" role="group">
+            <label class="form__label" for="comment">Коментарій</label>
             <textarea
-              class="textarea form-input"
+              class="form__textarea form__input"
               name="comment"
               id="comment"
               rows="10"
@@ -607,15 +607,15 @@
             ></textarea>
           </div>
 
-          <div class="form-group-checkbox" role="group">
-            <label class="label" for="policy">
-              <input class="checkbox" type="checkbox" name="policy" id="policy" />
-              <span class="custom-checkbox"></span>
+          <div class="form__checkbox-box" role="group">
+            <label class="form__label" for="policy">
+              <input class="form__checkbox" type="checkbox" name="policy" id="policy" />
+              <span class="form__checkbox-custom"></span>
               <span>Погоджуюсь з розсилкою і приймаю</span>
-              <a class="link" href="./">Умови договору</a>
+              <a class="form_checkbox-link" href="./">Умови договору</a>
             </label>
           </div>
-          <button class="form-btn btn" type="submit">Відправити</button>
+          <button class="modal__form-btn btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>
