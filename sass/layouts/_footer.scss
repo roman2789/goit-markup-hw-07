@@ -2,17 +2,16 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2f303a;
-}
 
-.footer__container {
-  display: flex;
-}
+  &__container {
+    display: flex;
+  }
 
-.footer__subtitle {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
+  &__addr-block {
+    margin-right: 70px;
+    min-width: 231px;
+  }
+  &__logo-part {
+    color: var(--primary-white-color);
+  }
 }
